@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('img/splash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-transform: capitalize;
+
+
+}
+
+.counter-box {
+    flex: 0 0 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 100px;
+    color: #eee;
+
+
+}
+
+button:hover {
+    color: #333;
+}
+
+.btn {
+    margin: 0 40px;
+}
+
+.counter {
+    margin: 0 auto;
+    font-size: 4rem;
+}
