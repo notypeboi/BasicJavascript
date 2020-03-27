@@ -1,0 +1,60 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+button {
+    border: none;
+}
+
+.images {
+    background: yellow;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url('images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: grey;
+}
+
+.prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+
+}
+
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+
+}
